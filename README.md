@@ -2,7 +2,7 @@
 
 I found myself in need of a lab to play around with SSH certificate authorities for a recent project, so I built one.  This project will bring up a certificate authority as well as one client and one ssh server.  It also does all the necessary deployment of host, server and signing keys, as well as the signing of said keys.
 
-Once the environment is up and running, the root user on client1 should be able to SSH to server1 without being prompted to accept a new host key or to enter a password.  The magic of a SSH certificate authorityin action!
+Once the environment is up and running, the root user on client1 should be able to SSH to server1 without being prompted to accept a new host key or to enter a password.  The magic of a SSH certificate authority in action!
 
 ## Getting Started
 
